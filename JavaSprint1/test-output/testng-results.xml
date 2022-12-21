@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-20T20:15:22 PST" name="Default suite" finished-at="2022-12-20T20:15:23 PST" duration-ms="56">
+  <suite started-at="2022-12-20T21:02:49 PST" name="Default suite" finished-at="2022-12-20T21:03:20 PST" duration-ms="30684">
     <groups>
     </groups>
-    <test started-at="2022-12-20T20:15:22 PST" name="Default test" finished-at="2022-12-20T20:15:23 PST" duration-ms="56">
-      <class name="userstory.AnagramsSprint1">
-        <test-method signature="testcase1()[pri:0, instance:userstory.AnagramsSprint1@3232a28a]" started-at="2022-12-20T20:15:22 PST" name="testcase1" finished-at="2022-12-20T20:15:23 PST" duration-ms="8" status="PASS">
+    <test started-at="2022-12-20T21:02:49 PST" name="Default test" finished-at="2022-12-20T21:03:20 PST" duration-ms="30684">
+      <class name="userstory.ScreenshotAssignment">
+        <test-method is-config="true" signature="setup()[pri:0, instance:userstory.ScreenshotAssignment@729d991e]" started-at="2022-12-20T21:02:49 PST" name="setup" finished-at="2022-12-20T21:03:08 PST" duration-ms="18272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testcase1()[pri:0, instance:userstory.ScreenshotAssignment@729d991e]" started-at="2022-12-20T21:03:08 PST" name="testcase1" finished-at="2022-12-20T21:03:08 PST" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase1 -->
-        <test-method signature="testcase2()[pri:0, instance:userstory.AnagramsSprint1@3232a28a]" started-at="2022-12-20T20:15:23 PST" name="testcase2" finished-at="2022-12-20T20:15:23 PST" duration-ms="2" status="PASS">
+        <test-method signature="testcase2()[pri:2, instance:userstory.ScreenshotAssignment@729d991e]" started-at="2022-12-20T21:03:08 PST" name="testcase2" finished-at="2022-12-20T21:03:10 PST" duration-ms="2593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase2 -->
-        <test-method signature="testcase3()[pri:0, instance:userstory.AnagramsSprint1@3232a28a]" started-at="2022-12-20T20:15:23 PST" name="testcase3" finished-at="2022-12-20T20:15:23 PST" duration-ms="1" status="PASS">
+        <test-method signature="testcase3()[pri:3, instance:userstory.ScreenshotAssignment@729d991e]" started-at="2022-12-20T21:03:10 PST" name="testcase3" finished-at="2022-12-20T21:03:19 PST" duration-ms="8846" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase3 -->
-        <test-method signature="testcase4()[pri:0, instance:userstory.AnagramsSprint1@3232a28a]" started-at="2022-12-20T20:15:23 PST" name="testcase4" finished-at="2022-12-20T20:15:23 PST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:userstory.ScreenshotAssignment@729d991e]" started-at="2022-12-20T21:03:19 PST" name="close" finished-at="2022-12-20T21:03:20 PST" duration-ms="812" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase4 -->
-      </class> <!-- userstory.AnagramsSprint1 -->
+        </test-method> <!-- close -->
+      </class> <!-- userstory.ScreenshotAssignment -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
