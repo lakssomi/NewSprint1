@@ -1,17 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-23T16:51:26 PST" name="Default suite" finished-at="2022-12-23T16:51:26 PST" duration-ms="32">
+  <suite started-at="2022-12-25T14:40:05 PST" name="Default suite" finished-at="2022-12-25T14:40:28 PST" duration-ms="23191">
     <groups>
     </groups>
-    <test started-at="2022-12-23T16:51:26 PST" name="Default test" finished-at="2022-12-23T16:51:26 PST" duration-ms="32">
-      <class name="userstory.GradeGenerator">
-        <test-method signature="testcase1()[pri:0, instance:userstory.GradeGenerator@7133da86]" started-at="2022-12-23T16:51:26 PST" name="testcase1" finished-at="2022-12-23T16:51:26 PST" duration-ms="7" status="PASS">
+    <test started-at="2022-12-25T14:40:05 PST" name="Default test" finished-at="2022-12-25T14:40:28 PST" duration-ms="23191">
+      <class name="library.Utilityclass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:library.Utilityclass@2c1b194a]" started-at="2022-12-25T14:40:05 PST" name="setup" finished-at="2022-12-25T14:40:11 PST" duration-ms="6214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testcase1()[pri:0, instance:library.Utilityclass@2c1b194a]" started-at="2022-12-25T14:40:11 PST" name="testcase1" finished-at="2022-12-25T14:40:11 PST" duration-ms="212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase1 -->
-      </class> <!-- userstory.GradeGenerator -->
+        <test-method signature="testcase2()[pri:0, instance:library.Utilityclass@2c1b194a]" started-at="2022-12-25T14:40:11 PST" name="testcase2" finished-at="2022-12-25T14:40:11 PST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method signature="testcase3()[pri:0, instance:library.Utilityclass@2c1b194a]" started-at="2022-12-25T14:40:11 PST" name="testcase3" finished-at="2022-12-25T14:40:12 PST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase3 -->
+        <test-method signature="testcase4()[pri:0, instance:library.Utilityclass@2c1b194a]" started-at="2022-12-25T14:40:12 PST" name="testcase4" finished-at="2022-12-25T14:40:12 PST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase4 -->
+        <test-method signature="testcase5()[pri:0, instance:library.Utilityclass@2c1b194a]" started-at="2022-12-25T14:40:12 PST" name="testcase5" finished-at="2022-12-25T14:40:12 PST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase5 -->
+        <test-method signature="testcase6()[pri:0, instance:library.Utilityclass@2c1b194a]" started-at="2022-12-25T14:40:12 PST" name="testcase6" finished-at="2022-12-25T14:40:12 PST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase6 -->
+        <test-method signature="testcase7()[pri:0, instance:library.Utilityclass@2c1b194a]" started-at="2022-12-25T14:40:12 PST" name="testcase7" finished-at="2022-12-25T14:40:12 PST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase7 -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:library.Utilityclass@2c1b194a]" started-at="2022-12-25T14:40:12 PST" name="Teardown" finished-at="2022-12-25T14:40:28 PST" duration-ms="16275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- library.Utilityclass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
