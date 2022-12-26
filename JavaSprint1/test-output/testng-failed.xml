@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="library.Utilityclass">
+      <class name="userstory.IMDBTechTest">
         <methods>
-          <include name="testcase6"/>
+          <include name="testcase3"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- library.Utilityclass -->
+      </class> <!-- userstory.IMDBTechTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
