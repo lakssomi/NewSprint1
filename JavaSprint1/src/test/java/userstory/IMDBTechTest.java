@@ -43,7 +43,7 @@ public class IMDBTechTest {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		WebElement element = driver
 				.findElement(By.xpath("//div[@class='ipc-title__wrapper']//h3/span[text()='Details']"));
-		js.executeScript("arguments[0].scrollIntoView();", element);
+		js.executeScript("arguments[0].scrollIntoView()", element);
 		WebElement ele = driver.findElement(By.xpath("//ul/li/a[text()='December 17, 2021 (United States)']"));
 		System.out.println(ele.getText());
 		Assert.assertEquals(ele.getText(), "December 17, 2021 (United States)");

@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-25T21:19:00 PST" name="Default suite" finished-at="2022-12-25T21:19:41 PST" duration-ms="41135">
+  <suite started-at="2023-01-02T21:02:51 PST" name="Default suite" finished-at="2023-01-02T21:02:51 PST" duration-ms="35">
     <groups>
     </groups>
-    <test started-at="2022-12-25T21:19:00 PST" name="Default test" finished-at="2022-12-25T21:19:41 PST" duration-ms="41135">
-      <class name="userstory.IMDBTechTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:userstory.IMDBTechTest@3e11f9e9]" started-at="2022-12-25T21:19:00 PST" name="setup" finished-at="2022-12-25T21:19:28 PST" duration-ms="28187" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testcase1()[pri:0, instance:userstory.IMDBTechTest@3e11f9e9]" started-at="2022-12-25T21:19:28 PST" name="testcase1" finished-at="2022-12-25T21:19:35 PST" duration-ms="6872" status="PASS">
+    <test started-at="2023-01-02T21:02:51 PST" name="Default test" finished-at="2023-01-02T21:02:51 PST" duration-ms="35">
+      <class name="userstory.ArrangeArray">
+        <test-method signature="testcase1()[pri:0, instance:userstory.ArrangeArray@4d0f2471]" started-at="2023-01-02T21:02:51 PST" name="testcase1" finished-at="2023-01-02T21:02:51 PST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase1 -->
-        <test-method signature="testcase2()[pri:0, instance:userstory.IMDBTechTest@3e11f9e9]" started-at="2022-12-25T21:19:35 PST" name="testcase2" finished-at="2022-12-25T21:19:35 PST" duration-ms="437" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase2 -->
-        <test-method signature="testcase3()[pri:0, instance:userstory.IMDBTechTest@3e11f9e9]" started-at="2022-12-25T21:19:35 PST" name="testcase3" finished-at="2022-12-25T21:19:41 PST" duration-ms="5586" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase3 -->
-      </class> <!-- userstory.IMDBTechTest -->
+      </class> <!-- userstory.ArrangeArray -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
